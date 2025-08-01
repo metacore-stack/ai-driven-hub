@@ -1,31 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Analytics Dashboard
 
-## Getting Started
+A modern, interactive analytics dashboard built with Next.js, designed to provide actionable insights through real-time data visualization and campaign management.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Metric Cards**: At-a-glance KPIs for quick performance assessment.
+- **Analytics Overview**: Interactive line charts visualizing key metrics such as views, clicks, and conversions over time.
+- **Channel Distribution**: Visual breakdown of performance across different marketing channels.
+- **Campaign Performance**: Detailed charts to track and compare campaign results.
+- **Campaigns Table**: Tabular view of all campaigns with essential details.
+- **Responsive Design**: Fully responsive layout for desktop and mobile devices.
+- **Theme Toggle**: Switch between light and dark modes for optimal viewing.
+- **Real-Time Data**: Simulated real-time updates for a dynamic analytics experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Setup Instructions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd AI-Powered-Analytics-Dashboard
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
 
-## Learn More
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Open your browser and visit:**
+   ```
+   http://localhost:3000
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Edit the main dashboard UI in `src/app/page.tsx`.
+- Update styles and layout in the `src/components/` directory.
+- Mock data and chart logic can be found in `src/lib/mock-data.ts`.
+
+## 📦 Built With
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Recharts](https://recharts.org/) for data visualization
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 

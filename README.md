@@ -64,3 +64,7 @@ A modern, interactive analytics dashboard built with Next.js, designed to provid
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
+## 📄 AI Usage Report
+
+For details on how AI tools were used in this project, see the [AI_Usage_Report.md](./AI_Usage_Report.md).
+

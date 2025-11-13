@@ -1,70 +1,41 @@
-# Analytics Dashboard
+# InsightFlow Nexus
 
-A modern, interactive analytics dashboard built with Next.js, designed to provide actionable insights through real-time data visualization and campaign management.
+InsightFlow Nexus is an AI-augmented intelligence hub that streams live metrics, interprets trends, and paints a single coherent story across every growth channel.
 
-## 🚀 Features
+## Why It Matters
 
-- **Metric Cards**: At-a-glance KPIs for quick performance assessment.
-- **Analytics Overview**: Interactive line charts visualizing key metrics such as views, clicks, and conversions over time.
-- **Channel Distribution**: Visual breakdown of performance across different marketing channels.
-- **Campaign Performance**: Detailed charts to track and compare campaign results.
-- **Campaigns Table**: Tabular view of all campaigns with essential details.
-- **Responsive Design**: Fully responsive layout for desktop and mobile devices.
-- **Theme Toggle**: Switch between light and dark modes for optimal viewing.
-- **Real-Time Data**: Simulated real-time updates for a dynamic analytics experience.
+- **Unified telemetry**: Blend operational, marketing, and product signals into one adaptive view.
+- **Narrative analytics**: Transform raw numbers into human-readable takeaways backed by machine learning.
+- **Interactive exploration**: Drill into segments, compare cohorts, and surface anomalies with responsive charts.
+- **Experience first**: Light and dark themes, fluid layouts, and delightful motion keep insight discovery effortless.
 
-## 🛠️ Setup Instructions
+## Quickstart
 
-1. **Clone the repository:**
-   ```bash
-   git clone <your-repo-url>
-   cd AI-Powered-Analytics-Dashboard
-   ```
+1. Install dependencies: `npm install`
+2. Launch the dev server: `npm run dev`
+3. Visit `http://localhost:3000` to explore the dashboard
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   # or
-   bun install
-   ```
+## Core Capabilities
 
-3. **Run the development server:**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   # or
-   bun dev
-   ```
+- `src/app/page.tsx`: Composition layer for the primary dashboard experience.
+- `src/components/*`: Reusable UI primitives, cards, charts, and tables.
+- `src/lib/mock-data.ts`: Data scaffolding that simulates live feeds for development.
+- `src/hooks/use-real-time-data.ts`: Client-side stream that periodically refreshes key metrics.
 
-4. **Open your browser and visit:**
-   ```
-   http://localhost:3000
-   ```
+## Tech Foundations
 
-## 📝 Customization
+- Next.js App Router for hybrid rendering and routing
+- React 18 server and client components for responsive interfaces
+- Tailwind-ready styling with theme switching baked in
+- Recharts for flexible visualizations and time-series storytelling
 
-- Edit the main dashboard UI in `src/app/page.tsx`.
-- Update styles and layout in the `src/components/` directory.
-- Mock data and chart logic can be found in `src/lib/mock-data.ts`.
+## Build Roadmap
 
-## 📦 Built With
+- Automated anomaly detection with configurable alerting
+- Embeddable widgets for external platforms
+- Role-aware access controls and team workspaces
 
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- [Recharts](https://recharts.org/) for data visualization
+## AI Usage Disclosure
 
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## 📄 AI Usage Report
-
-For details on how AI tools were used in this project, see the [AI_Usage_Report.md](./AI_Usage_Report.md).
+All AI-assisted contributions and prompts are documented in `AI_Usage_Report.md` to maintain transparency.
 
